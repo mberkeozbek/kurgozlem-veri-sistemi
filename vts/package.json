@@ -1,0 +1,23 @@
+{
+  "name": "kg-veri-toplama-sistemi",
+  "version": "1.0.0",
+  "description": "KurGözlem Veri Toplama Sistemi - NosyAPI'dan veri çeker ve işler",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["kurgozlem", "altın", "döviz", "nosyapi", "veri-toplama"],
+  "author": "KurGözlem Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
